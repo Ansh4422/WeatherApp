@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.box{
+    width: 20rem;
+    height: 25rem;
+    background: rgb(31, 158, 255);
+    margin: 10% auto;
+    text-align: center;
+   padding: 1rem 0;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px black;
+}
+
+.search{
+    margin: 2rem 0;
+}
+
+.datatosearch{
+    padding: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.data{
+   margin-top: 1rem;
+}
+
+#location, #temperature{
+    padding: 1rem 0;
+}
+
+
